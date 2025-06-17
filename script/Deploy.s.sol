@@ -45,6 +45,13 @@ contract Deploy is BaseScript {
                 seth: ISETH(0x671425Ae1f272Bc6F79beC3ed5C4b00e9c628240),
                 erc20eth: IERC20(0x471EcE3750Da237f93B8E339c536989b8978a438)
             });
+        } else if (chainid == 42_161) {
+            // Arbitrum
+            deployConfig = Config({
+                swapRouter02: IUniswapSwapRouter(0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45),
+                seth: ISETH(0xe6C8d111337D0052b9D88BF5d7D55B7f8385ACd3),
+                erc20eth: IERC20(address(0))
+            });
         } else {
             revert("Deploy config not available for given network.");
         }

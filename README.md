@@ -43,6 +43,10 @@ Do note that for automation transactions to be executed by Gelato, you need to y
 - https://optimistic.etherscan.io/address/0xb32d94537591a899b13f7923a0f2cd0200a1ca84
 - https://celoscan.io/address/0x8B25D8a48d1FB17C9aF7765c797CA38B78614729
 
+### 2025-06-17
+
+- https://www.arbiscan.io/address/0x5D0acD0864Ad07ba4E1E0474AE69Da87482e14A9
+
 ## License
 
 This project is licensed under MIT.
